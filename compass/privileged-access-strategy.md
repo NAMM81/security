@@ -137,12 +137,12 @@ Implementing this strategy requires four complementary initiatives that each hav
 
 1. End-to-end Session Security - Establish explicit Zero Trust validation for privileged sessions, user sessions, and authorized elevation paths.
    1. Success Criteria: Each session will validate that each user accounts and device are trusted at a sufficient level before allowing access.
-1. Protect & Monitor Identity Systems including Directories, Identity Management, Admin Accounts, Consent grants, and more
+1. Protect & Monitor Identity Systems including Directories, Identity Management, Admin Accounts, Consent grants, and more.
    1. Success Criteria: Each of these systems will be protected at a level appropriate for the potential business impact of  accounts hosted in it.
-1. Mitigate Lateral Traversal to protect against lateral traversal with local account passwords, service account passwords, or other secrets
-   1. Success Criteria: Compromising a single device will not immediately lead to control of many or all other devices in the environment
-1. Rapid Threat Response to limit adversary access and time in the environment
-   1. Success Criteria: Incident response processes impede adversaries from reliably conducting a multi-stage attack in the environment that would result in loss of privileged access. (as measured by reducing the mean time to remediate (MTTR) of incidents involving privileged access to near zero and reducing MTTR of all incidents to a few minutes so adversaries don't have time to target privileged access)
+1. Mitigate Lateral Traversal to protect against lateral traversal with local account passwords, service account passwords, or other secrets.
+   1. Success Criteria: Compromising a single device will not immediately lead to control of many or all other devices in the environment.
+1. Rapid Threat Response to limit adversary access and time in the environment.
+   1. Success Criteria: Incident response processes impede adversaries from reliably conducting a multi-stage attack in the environment that would result in loss of privileged access. (as measured by reducing the mean time to remediate (MTTR) of incidents involving privileged access to near zero and reducing MTTR of all incidents to a few minutes so adversaries don't have time to target privileged access).
 
 ## Next steps
 
